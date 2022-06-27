@@ -5,3 +5,5 @@ The problems are asigned to three Levels, Easy, Medium and Hard.
 Mainly solved in Python3.
 
 The solution ideas are recorded in Mandarin md files.
+
+It's welcome to discuss the solutions!
