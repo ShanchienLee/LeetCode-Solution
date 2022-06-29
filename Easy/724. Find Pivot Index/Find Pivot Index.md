@@ -13,6 +13,7 @@
   比對不到，再對sum left value逐項加上nums[i]，再進入下一輪迴圈進行比較。
   
 #這邊有個重點，
+
             for i in range(len(nums)):
             
             sRight -= nums[i]
@@ -26,6 +27,7 @@
     如果把sLeft += nums[i]寫進if判斷式上面，就會讓左右同步加減，這樣會有可能出現交錯，導致無法比對成功，找到pivot index
     
     所以務必要寫在if判斷式之後，如下：
+    
             for i in range(len(nums)):
             
             sRight -= nums[i]
