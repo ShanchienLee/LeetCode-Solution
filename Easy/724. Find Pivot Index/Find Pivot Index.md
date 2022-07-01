@@ -37,6 +37,6 @@
         >               sRight -= nums[i]
         >              if sLeft == sRight:
         >                  return i   
-        >               sLeft += nums[i]
+        >              sLeft += nums[i]
 
 4. 最後，如果都無法找到 pivot index，就回傳 -1 。
