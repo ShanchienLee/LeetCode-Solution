@@ -36,6 +36,8 @@
     > 
     >       dividable_by_5 = (num % 5 == 0 )
 
+      * python 中，除法有三種運算子，這邊為了檢定是否有餘數，所以用 "%" 。
+
 4. 再來利用 if 函式按照題目條件建立判斷式：
     >      if dividable_by_3 and dividable_by_5:
     >           ans.append("FizzBuzz")         
