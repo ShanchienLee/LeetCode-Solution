@@ -16,7 +16,7 @@ class Solution:
     
 -------------------------
 
-# or sipmlier code in same thought, while a little slower.
+# Or sipmlier code in same thought.
 
 class Solution:
     def numberOfSteps(self, num: int) -> int:
